@@ -231,7 +231,7 @@ kurr.on("group-update", async (anu) => {
 
     if (anu.announce == "false") {
 
-      teks = `- [ Group Opened ] -\n\n_Group telah dibuka oleh admin_\n_Sekarang semua member bisa mengirim pesan_`;
+      teks = `- [ Group Opened ] -\n\n_Group telah dibuka oleh admin mampus lu komtol_\n_Sekarang semua member bisa mengirim pesan mwehehe anjg_`;
 
       kurr.sendMessage(metdata.id, teks, MessageType.text);
 
@@ -329,7 +329,8 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(kuburan)
 
-				teks = `MARI KITA DOAKAN\nYANG TERBAIK UNTUK\n@${num.split('@')[0]}\nATAS KEPERGIANYA DARI\n*${mdata.subject}*`
+				teks = `MARI KITA DOAKAN\nYANG TERBAIK UNTUK \n@${num.split('@')[0]}\nATAS KEPERGIANYA DARI BUMI INJ SEMOGA DI TERIMA DI SISJ NYA
+				\n*${mdata.subject}*`
 
 				sendButImage(anu.jid, teks, `Xavhier bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `AMIN`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
